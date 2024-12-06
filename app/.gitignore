@@ -1,0 +1,3 @@
+/build
+# Ignore only drawable folder inside res/ that contains icons from keys
+res/drawable/
