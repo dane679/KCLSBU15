@@ -1,13 +1,25 @@
 package com.example.lsbu15
 
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.Typography
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.res.painterResource
+import com.example.lsbu15.ui.screens.HomeScreen
 
 @Composable
-fun HomeScreen() {
-    Text("Welcome to the Home Screen!", style = MaterialTheme.typography.headlineLarge)
+fun HScreen() {
+//    Column {
+//        Row {
+//        Image(
+//            painter = painterResource(id = R.drawable.profile_image_placeholder),
+//            contentDescription = "Placeholder profile image")
+//        }
+//    }
+    HomeScreen()
 }
 
 @Composable
